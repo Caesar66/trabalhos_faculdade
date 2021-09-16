@@ -1,0 +1,158 @@
+html{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  background: url("./bg.jpg");
+  background-size: cover;
+}
+
+.menu{
+  padding: 20px 0 20px 0;
+  position: relative;
+  margin: 50px 0 25px 0;
+}
+.menu li{
+  margin: 0px;
+  display: block;
+
+  font-size: 55px;
+  text-align: center;
+  color: #5A6268;
+
+  transition-property: all;
+  transition-duration: 2s;
+}
+
+.menu li:hover{
+  background-color: #5A6268;
+  color: white;
+
+  border-radius: 75%;
+  transform: rotateY(360deg);
+}
+
+.menu li a{
+  text-decoration: none;
+  color: inherit;
+
+  font-family: Calibri, Cambria, sans-serif;
+}
+
+.icon-github{
+  text-decoration: none;
+  font-size:40px;
+  color: #302F2F;
+}
+.icon-github:hover{
+  text-decoration: none;
+  font-size:40px;
+  color: #302F2F;
+}
+.icon-linkedin{
+  text-decoration: none;
+  font-size:40px;
+  color: #016FB0;
+}
+.icon-linkedin:hover{
+  text-decoration: none;
+  font-size:40px;
+  color: #016FB0;
+}
+.btn-back{
+  margin: 0px;
+  height: 75%;
+  border: none;
+
+  font-family: Calibri, Cambria, sans-serif;
+  font-size: 35px;
+  color: #5A6268;
+  text-decoration: none;
+
+  display: block;
+  position: absolute;
+
+  transition: all 1s ease;
+
+  background-image: linear-gradient(to right, #5A6268 50%, rgba(2, 117, 216, 0) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+.btn-back:hover{
+  background-position: left bottom;
+  color: white;
+}
+
+/*
+.btn-back{
+  margin: 0px;
+  height: 75%;
+  border: none;
+
+  font-size: 35px;
+  text-align: center;
+  color: #5A6268;
+
+  display: block;
+  position: absolute;
+
+  transition: all 1s ease;
+
+  background-image: linear-gradient(to right, #5A6268 50%, rgba(2, 117, 216, 0) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+.btn-back:hover{
+  background-position: left bottom;
+}
+
+.btn-back a{
+  color: #5A6268;
+  font-family: Calibri, Cambria, sans-serif;
+
+  text-decoration: none;
+
+  transition: all 1s ease;
+}
+.btn-back a:hover{
+  color: white;
+}*/
+.text{
+  font-size: 24px;
+  font-family: Calibri, Cambria, sans-serif;
+}
+
+.img{
+  max-height: 600px;
+  max-width: 800px;
+
+  border-style: solid;
+  border-width: 2px;
+  border-color: black
+}
+
+.margin{
+  margin: 40px 0 40px 0;
+}
+
+.transition-2{
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  bottom: 0;
+  z-index: 101;
+  background-color: #EDEEF0;
+  transition: 0.5s ease-out;
+}
+
+.transition-2.is-active{
+  left: 0px;
+}
+
+.menu-transition{}

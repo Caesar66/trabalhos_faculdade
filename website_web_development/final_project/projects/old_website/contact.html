@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>WEBSITE</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="inside_body">
+      <div id="top_content">
+        <h1><span style="color:#4d4d4d">César</span> <span style="color:#737373">Silva</span></h1>
+        <h3>Programador</h3>
+        <div id="main_menu_bg">
+          <div id="main_menu">
+            <a class="menu" href="./homepage.html">Home</a>
+            <a class="menu" href="./docs/curriculum-vitae.pdf" target="_blank">Currículo</a>
+            <a class="menu" href="./projects.html">Projetos</a>
+            <a class="menu" href="./contact.html">Contato</a>
+          </div>
+        </div>
+      </div>
+      <div id="picture">
+        <img id="profile_picture" src="./assets/profile.png" alt="Foto do Programador">
+      </div>
+      <div id="content" style="width:50%">
+        <form id="contact" action="" method="get">
+          <div class="option">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" minlength="3" maxlength="50"><br/>
+          </div>
+          <div class="option">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" minlength="3" maxlength="50" placeholder="nome@dominio"><br/>
+          </div>
+          <div class="option">
+            <label for="msg">Mensagem:</label>
+            <textarea id="msg" name="msg" rows="4" cols="16" maxlength="120"></textarea>
+          </div>
+          <div class="option">
+            <input type="submit" value="Enviar">
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
